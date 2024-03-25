@@ -15,7 +15,12 @@ The library's core is constructed using vanillajs without relying on any externa
 
 - ***Data :***
 
-[!NOTE]
+>[!NOTE]
 You can use the library separatly or you can integrate it inside other frameworks/libraries like React , Vue , Svelte ...
 
-The library has many addons built on the top of other libraries 
+>[!NOTE]
+The library includes numerous addons that are built on top of other libraries enhancing the core features and providing additional capabilities tailored to specific needs.
+> - zikogl
+> - ziko-lottie
+> - ziko-pdf
+> - ziko-xls
