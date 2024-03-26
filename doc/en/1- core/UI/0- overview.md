@@ -11,7 +11,7 @@ For instance, consider the following JavaScript code using zikojs:
         color:"darkblue"
     })
     .forEach(n=>n.onPtrEnter(e=>{
-        console.log(e.target.element.textContent)
+        console.log(e.target.text)
     }));
 ```
 `p(...)` - This line creates a paragraph element (&lt;p&gt;) using zikojs. Inside the p() function, we pass in two text() function calls, which create text nodes containing "hello" and "world" respectively. These will be the contents of the paragraph.
@@ -21,7 +21,7 @@ For instance, consider the following JavaScript code using zikojs:
 `.forEach(...)` - This method iterates over the two items of the paragraph element. Inside the callback function, it sets up an event listener for the "pointerenter" event on each child element. When the pointer enters any child element, it logs the text content of that element to the console.
 
 >[!TIP]
-To acces the para items you can use Array like syntaxe , `para[index]` or `para.at(inde)` (index can positive or negative integer)
+To acces the para items you can use Array like syntaxe , `para[index]` or `para.at(index)` (index can positive or negative integer)
 
 This code snippet produces the equivalent HTML structure:
 ```html
