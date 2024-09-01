@@ -1,0 +1,39 @@
+{
+  "name": "ziko-chart",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -c watch/rollup.config.js",
+    "watch": "rollup -c watch/rollup.config.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakarialaoui10/ziko-chart.git"
+  },
+  "keywords": [
+    "ziko",
+    "chart",
+    "plot",
+    "visualisation"
+  ],
+  "author": "zakaria elalaloui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakarialaoui10/ziko-chart/issues"
+  },
+  "homepage": "https://github.com/zakarialaoui10/ziko-chart#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.4",
+    "d3": "^7.9.0",
+    "ziko": "^0.0.11"
+  }
+}
