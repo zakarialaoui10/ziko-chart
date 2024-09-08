@@ -35,19 +35,22 @@ __Ziko__.__Config__.setDefault({target:document.body})
 //     }
 //   }
 // };
-a=d3Chart()
-t=arange(-10,10,0.1)
-a.plot(
-  Utils.mul(sin(t),5),
-  Utils.mul(cos(t),5),
-)
-a.plot(
-  Utils.mul(sin(t),4),
-  Utils.mul(cos(t),4),
-)
-a.plot(
-  Utils.mul(sin(t),3),
-  Utils.mul(cos(t),3),
-)
+// a=d3Chart()
+// t=arange(-10,10,0.1)
+// a.plot(
+//   Utils.mul(sin(t),5),
+//   Utils.mul(cos(t),5),
+// )
+// a.plot(
+//   Utils.mul(sin(t),4),
+//   Utils.mul(cos(t),4),
+// )
+// a.plot(
+//   Utils.mul(sin(t),3),
+//   Utils.mul(cos(t),3),
+// )
 
 
+a=chart().size("300px","400px")
+t=arange(-2*PI,2*PI,PI/128)
+b=a.plot([0,1,2,3,4],[0,3,3,1,-5])

@@ -1,1 +1,1 @@
-export * from "./plot"
+export * from "./d3-chart"
