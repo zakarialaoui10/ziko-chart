@@ -1,2 +1,1 @@
-export * from "./Chart"
-export * from "./D3/index.js"
+export * from "./plot";

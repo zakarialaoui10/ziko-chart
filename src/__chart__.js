@@ -1,5 +1,4 @@
 import {
-    ZikoUIElement,
     ZikoUICanvas
 } from "ziko";
 import Chart from "chart.js/auto"
