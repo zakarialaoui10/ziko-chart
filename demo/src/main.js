@@ -1,3 +1,5 @@
-import {Chart} from "ziko-chart"
+import {Chart, Radar} from "ziko-chart"
 
 globalThis.c = Chart()
+
+globalThis.r = Radar()

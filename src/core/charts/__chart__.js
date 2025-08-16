@@ -3,9 +3,9 @@ import __Chart__ from "chart.js/auto";
 const { canvas, figcaption} = tags
 
 class ZikoChart extends ZikoUIElement{
-    constructor(config = {}){
+    constructor({ type, data = {}} = {}){
         super('figure')
-        this.canvas = canvas().style({
+        this.canvas = canvas({role : 'img', ariaLabel : '', ariaDescribedby : ''}).style({
             outline : '2px red dashed',
         })
         this.figcaption = figcaption('Chart Caption').style({textAlign : 'center', padding : '5px'});
