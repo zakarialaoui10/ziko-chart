@@ -10,6 +10,9 @@
     "dev": "rollup -c watch/rollup.config.js",
     "watch": "rollup -c watch/rollup.config.js -w"
   },
+  "exports" : {
+    "." : "./src/core/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zakarialaoui10/ziko-chart.git"
@@ -32,8 +35,7 @@
     "@rollup/plugin-terser": "^0.4.4"
   },
   "dependencies": {
-    "chart.js": "^4.4.4",
-    "d3": "^7.9.0",
-    "ziko": "^0.0.11"
+    "chart.js": "^4.5.0",
+    "ziko": "^0.38.0"
   }
 }
