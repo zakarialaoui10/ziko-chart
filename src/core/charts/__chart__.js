@@ -1,8 +1,8 @@
-import { ZikoUIElement, tags } from "ziko";
+import { UIElement, tags } from "ziko";
 import __Chart__ from "chart.js/auto";
 const { canvas, figcaption} = tags
 
-class ZikoChart extends ZikoUIElement{
+class ZikoChart extends UIElement{
     constructor({ type, data = {}} = {}){
         super('figure')
         this.canvas = canvas({role : 'img', ariaLabel : '', ariaDescribedby : ''}).style({
