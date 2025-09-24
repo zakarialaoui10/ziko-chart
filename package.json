@@ -1,6 +1,6 @@
 {
   "name": "ziko-chart",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -10,8 +10,8 @@
     "dev": "rollup -c watch/rollup.config.js",
     "watch": "rollup -c watch/rollup.config.js -w"
   },
-  "exports" : {
-    "." : "./src/core/index.js"
+  "exports": {
+    ".": "./src/core/index.js"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "chart.js": "^4.5.0",
-    "ziko": "^0.38.0"
+    "ziko": "^0.46.0"
   }
 }
