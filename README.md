@@ -1,1 +1,5 @@
-# ziko-chart    
+# ziko-chart 
+
+<!--
+use requestAnimationFrame
+-->   
