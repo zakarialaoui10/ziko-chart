@@ -1,2 +1,2 @@
-export * from './charts/__chart__.js'
-export * from './charts/index.js'
+export * from './chart.js'
+export * from './typed-charts/index.js'
