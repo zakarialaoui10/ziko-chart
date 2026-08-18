@@ -1,6 +1,6 @@
 {
-  "name": "ziko-chart",
-  "version": "0.5.0",
+  "name": "@zikojs/chart",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -9,6 +9,9 @@
     "build": "rollup -c rollup.config.js",
     "dev": "rollup -c watch/rollup.config.js",
     "watch": "rollup -c watch/rollup.config.js -w"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "exports": {
     ".": "./src/core/index.js"
@@ -30,12 +33,12 @@
   },
   "homepage": "https://github.com/zakarialaoui10/ziko-chart#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^26.0.1",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4"
+    "@rollup/plugin-commonjs": "^29.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
-    "ziko": "^0.60.1"
+    "ziko": "^1.8.0"
   }
 }
